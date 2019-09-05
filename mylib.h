@@ -4,4 +4,5 @@
 #include <stdio.h>
 void *emalloc(size_t s);
 int getword(char *s, int limit, FILE *stream);
+int nextPrime(int x);
 #endif
