@@ -1,6 +1,7 @@
 #include <assert.h>
 #include <ctype.h>
 #include <stdio.h>
+#include <math.h>
 #include "mylib.h"
 
 void *emalloc(size_t s) {
@@ -39,3 +40,26 @@ int getword(char *s, int limit, FILE *stream) {
     
     return w - s;
 }
+
+int nextPrime(int x){
+    int f = 2;
+    while(f <= sqrt(x)){
+        if(x % f = 0){
+            return 0;
+        }
+        else{
+            f = f + 1;
+        }
+        bound = (parameter) +1
+        while(bound > 0){
+            if(primeGT(bound)){
+                return bound;
+            }
+            else{
+                bound = bound + 1;
+            }
+        }   
+    }
+}
+
+                          
